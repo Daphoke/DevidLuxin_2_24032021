@@ -436,8 +436,10 @@ footer h5
 	{
 		margin-left: 40px;
 	}
-/* Responsive Smartphone */
-@media all and (max-width: 767px) 
+
+
+/* Responsive Smartphone and exception*/
+@media all and (max-width: 767px)  
 	{
 		#fullpage
 			{
@@ -544,16 +546,28 @@ footer h5
 				width: 100%;
 				margin-left: -4px;
 			}
+		.card_1	
+			{
+				display: flex;
+				width: 100%;
+				height: 160px;
+			}
+		.card_1_image
+			{
+				width: 40%;
+				height: 159px;
+				border-radius: 10px;
+			}
+		.hebergement figcaption
+			{
+				padding-top: 50px;
+				padding-left: 20px;
+			}
 		.hebergement a 
 			{
 				display: flex;
 				justify-content: center;
 				width: 95%;
-			}
-		.card_1	
-			{
-				width: 100%;
-				height: 160px;
 			}
 		.more
 			{			
@@ -643,6 +657,24 @@ footer h5
 				margin-bottom: 20px;
 			}
 	}
+/* Responsive Smartphone */
+@media all and (max-width: 350px) 
+	{
+		.card_1 
+			{
+    			display:unset;
+			}
+		.card_1_image
+			{
+				width: 100%;
+				height: 62%;
+				border-radius: 10px 10px 0 0;
+			}
+		.hebergement figcaption
+			{
+				padding:0;
+			}
+	}
 /* Responsive tablette */
 @media all and (min-width: 767px) and (max-width:1024px) 
 	{
@@ -717,7 +749,7 @@ footer h5
 			}
 		.card_2
 			{
-				width: 90%;
+				width: 95%;
 				height: 120px;
 			}
 		.card_2_image
@@ -737,11 +769,12 @@ footer h5
 			}
 		.hebergement a
 			{
-				width: 30%;
+				margin: 0 30px 0 30px;
+				width: 25%;
 			}
 		.hand_card_1 
 			{
-				width: 95%;
+				width: 90%;
 			}
 		.card_1	
 			{
@@ -804,8 +837,9 @@ footer h5
 			}
 		.card_2
 			{
+				font-size: 0.9rem;
 				width: 90%;
-				height: 120px;	
+				height: 120px;
 			}
 		.card_2_image
  			{
@@ -849,7 +883,7 @@ footer h5
 			}
 		.hebergement .figure_title 
 			{
-				margin-left: -45px;
+				margin-left: 0;
 			}
 		.hand_card_1
 			{
@@ -862,13 +896,13 @@ footer h5
 		.hand_card_3 
 			{
 				width:100%;
-				height : 680px;
+				height : 900px;
 			}
 		.card_3,.card_3_bis,.card_3_ter
 			{	
 				padding: 3px;
 				margin: 15px 0;	
 				font-size:0.8rem;
-				width: 250px;	
+				width: 300px;	
 			}
 	}
