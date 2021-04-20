@@ -1,2 +1,2 @@
 # Reservia
-openclassroom project 1 - 2021
+openclassroom project 1 - 2021 - HTML/CSS
