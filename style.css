@@ -60,6 +60,7 @@ nav ul li a:hover
 #inscrire:hover
 	{
 		transform: scale(1.2);
+		transition-duration: 200ms;
 	}
 
 /* Titres */
@@ -138,8 +139,9 @@ h2
 	}
 .filter:hover
 	{
-   		background-color: #f3f8ff;
+   		background-color: #98c3ff;
    		transform: scale(1.05);
+		transition-duration: 200ms;
 	}
 .filter_ico	
 	{	
@@ -240,7 +242,7 @@ h2
 	}	
 .hebergement .figure_title
 	{
-		margin-left: 4%;
+		width: 80%;
 		min-width: 100px;
 	} 
 .hebergement a 
@@ -311,6 +313,7 @@ h2
 .more a:hover
 	{
 	transform: scale(1.1);
+	transition-duration: 200ms;
 	}
 
 /* Les plus populaires */
@@ -469,6 +472,7 @@ footer ul li a:hover
 footer h5
 	{
 		margin-left: 40px;
+		font-size: 0.9rem;
 	}
 
 /* Tablet-Laptop */
@@ -496,7 +500,7 @@ footer h5
 		nav ul li a
 			{
 				padding-right: 0;	
-				order:1;	
+				order: 1;	
 			}
 		nav ul li a:hover
 			{	
@@ -504,7 +508,7 @@ footer h5
 				border-top: none;
 				border-bottom:3px #0065FC solid;
 				color: #0065FC;
-			}	
+			}	 
 		#found_it
 			{
 				padding-top: 10px;
@@ -517,10 +521,6 @@ footer h5
 		.populaire 
 			{
    				 width: 100%;
-			}
-		.populaire .figure_title
-			{
-				width: 90%;	
 			}
 		.populaire .figure_title i 
 			{
@@ -539,7 +539,7 @@ footer h5
 			}
 		.card_2
 			{
-				width: 95%;
+				width: 80%;
 				height: 120px;
 			}
 		.card_2_image
@@ -560,7 +560,7 @@ footer h5
 		.hebergement a
 			{
 				margin: 0 30px 10px 30px;
-				width: 24%;
+				width: 37%;
 				min-width: unset;
 			}
 		.hand_card_1
@@ -589,14 +589,14 @@ footer h5
 		.hand_card_3 
 			{
 				width:100%;
-				height : 460px;
+				height : 690px;
 				align-content: space-around;
 			}
 		#activites a
 			{
 				text-decoration: none; 
 				color: black;
-				width: 27%;
+				width: 43%;
 				min-width: 220px;
 			}
 		.card_3_image_25pc,.card_3_image_50pc,.card_3_image_100pc
@@ -649,12 +649,8 @@ footer h5
 			}
 		nav ul li a:hover
 			{	
-				padding: 0;
-				margin: 0;
-				color: #0065FC;
-				border-top: none;
-				border-bottom:3px #0065FC solid;
-			}	
+				all:unset;
+			}
 		#found_it
 			{
 				padding-top: 10px;
@@ -678,14 +674,19 @@ footer h5
 				border-radius: 0 10px 10px 0;
 				cursor: pointer;	
 			}
-		#filters 
-			{	
-				display:initial;
+		#filters h3
+			{
+				width: 100%;
 			}
 		.filter
 			{
-				margin-bottom: 5px;
+				margin-bottom: 10px;
+				margin-right: 8px;
 				margin-left: 0;
+			}
+			.filter_name
+			{
+				padding-right: 0;
 			}
 		#hebergement_populaire
 			{
@@ -702,6 +703,7 @@ footer h5
 			}
 		.hebergement .figure_title 
 			{
+				margin-left: 0;
 				margin-bottom: 10px;
 				width: 95%;
 			}
@@ -717,6 +719,7 @@ footer h5
 			}
 		.card_1	
 			{
+				margin-bottom: 18px;
 				display: flex;
 				width: 100%;
 				height: 150px;
@@ -741,11 +744,12 @@ footer h5
 			{
 				display: flex;
 				justify-content: center;
+				padding-top: 10px;
 			}
-		.more:hover
+		 .more:hover
 			{
-				margin: 0;
-			}	
+				all:unset;
+			}	 
 		.populaire 
 			{
 				min-width: unset;
@@ -799,17 +803,20 @@ footer h5
 			}
 		#activites
 			{
-				margin: auto;
+				align-content: center;
 			}
 		.hand_card_3 
 			{
-				width:100%;
+				margin:auto;
+				width:95%;
 				height: auto;
 				flex-wrap: unset;
 			}
 		#activites .figure_title 
 			{
 				margin-top: 20px;
+				margin-left: 0;
+				width: 95%;
 			}	
 		#activites a 
 			{
@@ -822,11 +829,11 @@ footer h5
 				margin-bottom: 20px;
 				font-size:0.85rem;
 				width: 100%;
-				height: 150px;
+				height: 158px;
 			}	
 		.card_3_image_25pc,.card_3_image_50pc,.card_3_image_100pc
 			{
-				height: 110px;
+				height: 116px;
 			}
 		.card_3 figcaption h4
 			{
@@ -839,6 +846,10 @@ footer h5
 				flex-direction : column;
 				width: 100%;
 			}
+		footer h5
+			{
+				margin-bottom: 0;
+			}
 		.footer_heading
 			{
 				margin-bottom: 20px;
@@ -847,7 +858,7 @@ footer h5
 	}
 
 /* Smartphone S */
-@media all and (max-width: 350px) 
+@media all and (max-width: 376px) 
 	{
 		.card_1 
 			{
