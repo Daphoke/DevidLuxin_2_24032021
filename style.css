@@ -14,14 +14,14 @@ main
 header
 	{
 		margin: auto;
-    	display: flex;
+		display: flex;
    		align-items: center;
 		font-size: 0.9rem;
 		width: 95%;
 	} 
 header div
 	{
-    	width: 17%;
+		width: 17%;
 		min-width: 100px;	
 	} 
 #logo
