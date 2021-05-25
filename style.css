@@ -647,10 +647,6 @@ footer h5
 				text-align: center;	
 				border-bottom:3px #F2F2F2 solid;
 			}
-		nav ul li a:hover
-			{	
-				all:unset;
-			}
 		#found_it
 			{
 				padding-top: 10px;
@@ -746,10 +742,6 @@ footer h5
 				justify-content: center;
 				padding-top: 10px;
 			}
-		 .more:hover
-			{
-				all:unset;
-			}	 
 		.populaire 
 			{
 				min-width: unset;
